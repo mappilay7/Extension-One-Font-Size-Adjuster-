@@ -41,7 +41,7 @@ Only operates on tabs whose URL's protocol is applicable.
 function initializePageAction(tab) {
   if (protocolIsApplicable(tab.url)) {
     browser.pageAction.setIcon({tabId: tab.id, path: "icons/off.svg"});
-    browser.pageAction.setTitle({tabId: tab.id, title: TITLE_APPLY});
+    browser.pageAction.setTitle({tabId: tab.id, title: TITLE_APPLY}); // To initiliae page action (Lakessh)
     browser.pageAction.show(tab.id);
   }
 }
