@@ -1,6 +1,6 @@
 {
 
-  "description": "To maximize the word for user in a click",
+  "description": "To maximize word for user in a single click",
   "manifest_version": 2,
   "name": "Word Changer Extension",
   "version": "1.0",
