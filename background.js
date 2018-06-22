@@ -1,5 +1,5 @@
 const CSS = "body { font-size: xx-large; }";
-const TITLE_APPLY = "Apply CSS";
+const TITLE_APPLY = "Apply CSS"; // to apply CSS
 const TITLE_REMOVE = "Remove CSS";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
 
