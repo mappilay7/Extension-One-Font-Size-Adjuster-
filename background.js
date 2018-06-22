@@ -52,7 +52,7 @@ When first loaded, initialize the page action for all tabs.
 var gettingAllTabs = browser.tabs.query({});
 gettingAllTabs.then((tabs) => {
   for (let tab of tabs) {
-    initializePageAction(tab);
+    initializePageAction(tab); // to initialize page action
   }
 });
 
@@ -60,10 +60,10 @@ gettingAllTabs.then((tabs) => {
 Each time a tab is updated, reset the page action for that tab.
 */
 browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
-  initializePageAction(tab);
+  initializePageAction(tab); //to add event to the page
 });
 
 /*
 Toggle CSS when the page action is clicked.
 */
-browser.pageAction.onClicked.addListener(toggleCSS);
+browser.pageAction.onClicked.addListener(toggleCSS); // to make on click work 
