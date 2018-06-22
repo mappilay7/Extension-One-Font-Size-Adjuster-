@@ -12,6 +12,7 @@
 
   "page_action": {
     "default_icon": "icons/off.svg",
+    "default_title": "To maximize word",
     "browser_style": true
   },
   
