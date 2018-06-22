@@ -1,8 +1,8 @@
 {
 
-  "description": "Adds a page action to toggle applying CSS to pages.",
+  "description": "To maximize the word for user in a click",
   "manifest_version": 2,
-  "name": "apply-css",
+  "name": "Word Changer",
   "version": "1.0",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/apply-css",
 
