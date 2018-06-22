@@ -31,7 +31,7 @@ Returns true only if the URL's protocol is in APPLICABLE_PROTOCOLS.
 function protocolIsApplicable(url) {
   var anchor =  document.createElement('a');
   anchor.href = url;
-  return APPLICABLE_PROTOCOLS.includes(anchor.protocol);
+  return APPLICABLE_PROTOCOLS.includes(anchor.protocol); //to return
 }
 
 /*
@@ -57,13 +57,13 @@ gettingAllTabs.then((tabs) => {
 });
 
 /*
-Each time a tab is updated, reset the page action for that tab.
+Each time a tab is updated, reset the page action for that tabs
 */
 browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
   initializePageAction(tab); //to add event to the page
 });
 
 /*
-Toggle CSS when the page action is clicked.
+Toggle CSS when the page action is click
 */
 browser.pageAction.onClicked.addListener(toggleCSS); // to make on click work 
