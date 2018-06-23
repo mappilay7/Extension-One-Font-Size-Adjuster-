@@ -1,9 +1,9 @@
 //this is manifest file
 {
 
-  "description": "To maximize word for user in a single click",
+  "description": "To maximize the font size for user in a single click",
   "manifest_version": 2,
-  "name": "Word Changer Extension",
+  "name": "Font Size Changer Extension",
   "version": "1.0",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/apply-css",
 
