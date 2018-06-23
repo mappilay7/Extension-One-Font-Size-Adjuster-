@@ -1,3 +1,4 @@
+//background.js
 const CSS = "body { font-size: xx-large; }";
 const TITLE_APPLY = "Apply CSS"; // to apply CSS
 const TITLE_REMOVE = "Remove CSS";
@@ -64,6 +65,6 @@ browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
 });
 
 /*
-Toggle CSS when the page action is click
+Toggle css when the page action is click
 */
 browser.pageAction.onClicked.addListener(toggleCSS); // to make on click work 
