@@ -67,4 +67,4 @@ browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
 /*
 Toggle css when the page action is click
 */
-browser.pageAction.onClicked.addListener(toggleCSS); // to make on click work 
+browser.pageAction.onClicked.addListener(toggleCSS); // to make on click work // //uses add listener function.
