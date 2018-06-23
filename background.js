@@ -1,5 +1,5 @@
 //background.js
-const CSS = "body { font-size: xx-large; }";
+const CSS = "body { font-size: xx-large; }"; //code changed. to change font size.
 const TITLE_APPLY = "Apply CSS"; // to apply CSS
 const TITLE_REMOVE = "Remove CSS";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
